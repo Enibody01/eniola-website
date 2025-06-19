@@ -1,0 +1,40 @@
+.parent{
+    background-color: rgb(54, 23, 75);
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+    color: aliceblue;
+}
+.box1{
+    width: 150px;
+    height: fit-content;
+    padding: 10px;
+
+}
+
+
+.box2{
+    width: 150px;
+    height: fit-content;
+    padding: 10px;
+}
+
+.box3{
+    width: 150px;
+    height: fit-content;
+    padding: 10px;
+}
+
+.box4{
+    width: 150px;
+    height: fit-content;
+    padding: 10px;
+}
+
+.box5{
+    width: 150px;
+    height: fit-content;
+    padding: 10px;
+}

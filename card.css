@@ -1,0 +1,31 @@
+.container{
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+
+}
+
+.one{
+    background-color: white;
+    display: block;
+    width: fit-content;
+    height: 49;
+    border: 20px;
+}
+
+.two{
+    /* background-color: white; */
+    display: block;
+    border: 20px;
+    
+}
+
+.three{
+    /* background-color: white; */
+    display: block;
+    border: 20px;
+    
+}

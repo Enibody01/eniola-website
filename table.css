@@ -1,0 +1,53 @@
+table{
+    border: 1px solid black ;
+    width: 100%;
+    border-collapse: collapse;
+    /* transition: 2000ms; */
+}
+
+tr,td{
+    /* border : 1px solid rgba(185, 182, 182, 0.438); */
+    border-bottom: 1px solid ;
+}
+
+th{
+    background-color: cornflowerblue;
+    text-align: left;
+}
+/* pseudo-class */
+table:hover{
+    background-color: gray;
+    color: white;
+    transition: 2000ms;
+}
+
+
+
+
+p:hover{
+    background-color: yellow ;
+}
+
+.box{
+    width: 200px;
+    background-color: red;
+    height: 200px;
+    transition: 2000ms;
+}
+
+.box:hover{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    padding-left: 50px;
+    transition: 2000ms;
+    transform: rotate(90deg);
+}
+
+a:hover{
+    color: red;
+}
+
+a:visited{
+    color: rgb(166, 51, 211);
+}
